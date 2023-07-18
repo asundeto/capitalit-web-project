@@ -1,0 +1,188 @@
+* {
+    /*CTRL F5 IF BROWSER DOESNT reload*/
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    text-decoration: none;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+/*Mine Btn START*/
+.mine_btn {
+    color: #5f0cf5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: solid #5f0cf5;
+}
+
+.mine_btn:hover {
+    color: #fff;
+    background-color: #5f0cf5;
+}
+
+.test_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* CSS */
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+    outline: 0;
+}
+
+.button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-64:hover span {
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .button-64 {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+
+.wrapper {
+    transform: translate(-50%, -50%);
+}
+
+.wrapper a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.wrapper a span {
+    position: relative;
+    z-index: 2;
+}
+
+.wrapper a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+}
+
+.wrapper a:hover {
+    color: #fff;
+}
+
+.wrapper a:hover:after {
+    width: 100%;
+}
+
+/*Mine Btn END*/
+
+.telo {
+    background-color: #1f2223;
+}
+
+.text-reset {
+    outline: none;
+    text-decoration: none;
+}
+
+/*CONTACT START*/
+.contact {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    align-items: end;
+    z-index: 10;
+}
+
+.contact img {
+    width: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact img:hover {
+    transform: scale(1.05);
+}
+
+.contact-chat {
+    padding: 10px;
+    border-radius: 20px;
+    display: none;
+    height: 400px;
+    background: linear-gradient(45deg, #7eb0fa, #5f0cf5 100%);
+    width: 300px;
+    z-index: 10;
+    box-shadow: 5px 5px 0px 0px rgb(255, 2, 78);
+}
+
+.contact-img {
+    margin-left: 20px;
+    align-items: right;
+    bottom: 0px;
+}
+
+.xClose {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/*CONTACT END*/

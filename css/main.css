@@ -1,0 +1,116 @@
+* {
+    /*CTRL F5 IF BROWSER DOESNT reload*/
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    text-decoration: none;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+
+.telo {
+    background-color: #1f2223;
+}
+
+.footer {
+    background-color: #1b1e1f;
+}
+
+.text-reset {
+    outline: none;
+    text-decoration: none;
+}
+
+.text-center a {
+    text-decoration: none;
+}
+
+/*BUTTON START*/
+
+
+
+.btn_mine {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    outline: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    border: solid #5f0cf5;
+    text-decoration: none;
+    background: none;
+    color: #5f0cf5;
+    border-radius: 10px;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_mine:hover {
+    color: #ffffff;
+    box-shadow: 0px 0px 0px 0;
+    background-color: #5f0cf5;
+}
+
+/*BUTTON END*/
+
+
+.mini_icons {
+    right: 5px;
+}
+
+.about_p {
+    font-size: 20px;
+}
+
+/*CONTACT START*/
+.contact {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    align-items: end;
+    z-index: 10;
+}
+.contact img {
+    width: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact img:hover {
+    transform: scale(1.05);
+}
+.contact-chat {
+    padding: 10px;
+    border-radius: 20px;
+    display: none;
+    height: 400px;
+    background: linear-gradient(45deg, #7eb0fa, #5f0cf5 100%);
+    width: 300px;
+    z-index: 10;
+    box-shadow: 5px 5px 0px 0px rgb(255, 2, 78);
+}
+.contact-img {
+    margin-left: 20px;
+    align-items: right;
+    bottom: 0px;
+}
+.xClose {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+/*CONTACT END*/
+
+.checked {
+    color: orange;
+}
+
+@media screen and (max-width: 1280px) {
+    .contact {
+        display: none;
+    }
+}

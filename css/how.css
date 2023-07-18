@@ -1,0 +1,138 @@
+* {
+    /*CTRL F5 IF BROWSER DOESNT reload*/
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    text-decoration: none;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+h2 {
+    font-weight: bold;
+}
+.telo {
+    background-color: #1f2223;
+}
+
+.how_btn {
+    width: 200px;
+    height: 50px;
+    background-color: #5f0cf5;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container_inner {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.howCon {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.text-reset {
+    outline: none;
+    text-decoration: none;
+}
+
+.row a {
+    text-decoration: none;
+}
+
+.btn_how {
+    margin: 0px auto;
+}
+
+/*BUTTON START*/
+
+.btn_mine {
+    padding: 10px;
+    outline: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    border: solid #5f0cf5;
+    text-decoration: none;
+    background: none;
+    color: #5f0cf5;
+    border-radius: 10px;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_mine:hover {
+    color: #ffffff;
+    box-shadow: 0px 0px 0px 0;
+    background-color: #5f0cf5;
+}
+
+.comment_form {
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+/*BUTTON END*/
+
+/*CONTACT START*/
+.contact {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    align-items: end;
+    z-index: 10;
+}
+
+.contact img {
+    width: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact img:hover {
+    transform: scale(1.05);
+}
+
+.contact-chat {
+    padding: 10px;
+    border-radius: 20px;
+    display: none;
+    height: 400px;
+    background: linear-gradient(45deg, #7eb0fa, #5f0cf5 100%);
+    width: 300px;
+    z-index: 10;
+    box-shadow: 5px 5px 0px 0px rgb(255, 2, 78);
+}
+
+.contact-img {
+    margin-left: 20px;
+    align-items: right;
+    bottom: 0px;
+}
+
+.xClose {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/*CONTACT END*/
+
+
+@media screen and (max-width: 1280px) {
+    .contact {
+        display: none;
+    }
+        .container_inner {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+}
